@@ -26,7 +26,8 @@
                 <views:DetailView></views:DetailView>
             </TabItem>
             <TabItem Header="Weekly Calendar">
-                <Grid Background="Orange" />
+                
+                <views:ScheduleView></views:ScheduleView>
             </TabItem>
         </TabControl>
     </StackPanel>

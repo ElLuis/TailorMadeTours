@@ -54,6 +54,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Models\TourSource.cs" />
+    <Compile Include="Models\TourStop.cs" />
     <Compile Include="UserControls\DetailView.xaml.cs">
       <DependentUpon>DetailView.xaml</DependentUpon>
     </Compile>
@@ -89,8 +91,6 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Models\TourSource.cs" />
-    <Compile Include="Models\TourStop.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
